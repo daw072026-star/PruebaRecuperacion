@@ -1,4 +1,16 @@
+/**
+ * @version 1.0
+ * @author daw107
+ * 
+ */
 public class Aparcamiento {
+	/**
+	 * 
+	 * @param tipoVehiculo este es el tipo de vehiculo que puede ser moto o coche
+	 * @param horas, las horas que alquilas el cehiculo
+	 * @param plazasDisponibles, estas son las plazas que quedan para que ouedas aparcar en el parking
+	 * @return devuelve si el acceso esta permitido o no, y el precio que cuesta
+	 */
 
 	public static String gestionarAcceso(String tipoVehiculo, int horas, int plazasDisponibles) {
 
